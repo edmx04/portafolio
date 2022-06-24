@@ -1,0 +1,367 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   color: #fff;
+   font-family: "Lato", sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+   font-weight: 300;
+   transition: all 0.5s;
+}
+
+/* Botones */
+
+.btn {
+   padding: 8px 35px;
+   border-radius: 25px;
+   font-size: 1.2rem;
+   box-shadow: 2px 2px 3px 2px rgba(16, 55, 84, 0.29);
+}
+
+.btn-full {
+   background-color: #ff9f00;
+   text-shadow: 1px 1px 15px rgb(255, 255, 255);
+}
+
+.btn-outline {
+   border: #ff9f00 solid 2px;
+   color: #ff9f00;
+}
+
+.wrap {
+   max-width: 90%;
+   margin: 0 auto;
+}
+
+.titulos {
+   font-size: 2rem;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   color: rgb(43, 43, 43);
+   text-align: center;
+   padding: 60px 0 30px;
+}
+
+/* header */
+#header-principal {
+   background: rgb(23, 79, 120);
+   background: linear-gradient(45deg, rgba(23, 79, 120, 1) 0%, rgba(30, 117, 175, 1) 20%, rgba(222, 63, 24, 1) 80%, rgba(222, 63, 24, 1) 100%);
+   height: 90vh;
+}
+
+#nav-principal {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 30px;
+}
+
+#nav-principal .logo {
+   font-size: 1.2rem;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   color: #ffc907;
+}
+
+#nav-principal ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#nav-principal ul a {
+   padding: 5px 20px;
+   font-size: 1.2rem;
+}
+
+#nav-principal ul a:hover {
+   background-color: #ff9f00;
+   color: #fff;
+   border-radius: 3px;
+}
+
+.contenido-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 70px;
+}
+
+.contenido-header .texto {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.contenido-header .texto h1 {
+   font-size: 4rem;
+   font-weight: 900;
+   text-transform: uppercase;
+   color: #ffc907;
+   letter-spacing: 4px;
+}
+
+.contenido-header .texto h2 {
+   font-size: 1.5rem;
+}
+
+.contenido-header .texto h3 {
+   font-size: 1.1rem;
+}
+
+/* Boton CV PDF */
+.cv {
+   margin-top: 30px;
+   width: 200px;
+}
+
+.cv:hover {
+   background-color: #ff9f00;
+   color: #fff;
+}
+
+.contenido-header img {
+   width: 500px;
+   display: inline-block;
+}
+
+/* Servicios */
+
+#servicios {
+   color: rgb(43, 43, 43);
+}
+
+.cards {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+
+.card {
+   border: 1px solid rgb(231, 231, 231);
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 30%;
+}
+
+.card img {
+   margin: 25px 0;
+}
+
+.card .titulo-card {
+   font-size: 1.6rem;
+   color: #333;
+   padding: 20px 0;
+}
+
+.card p {
+   color: #333;
+   padding: 0 50px 50px;
+}
+
+/* Proceso */
+#proceso {
+   background-color: rgb(23, 79, 120);
+   padding: 40px 0;
+}
+
+#proceso .titulo-proceso {
+   font-size: 1.8rem;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: 400;
+   letter-spacing: 5px;
+   padding-bottom: 25px;
+}
+
+#proceso .planes {
+   padding-bottom: 50px;
+}
+
+#proceso .plan {
+   background-color: rgba(30, 117, 175, 1);
+}
+
+#proceso .diseno {
+   background-color: #ff9f00;
+}
+#proceso .desarrollo {
+   background-color: rgba(222, 63, 24, 1);
+}
+
+.plan h3 {
+   background-color: rgb(33, 127, 190);
+}
+
+.diseno h3 {
+   background-color: #f19e18;
+}
+
+.desarrollo h3 {
+   background-color: rgb(247, 71, 27);
+}
+
+#proceso .flex-plan {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flex-plan h3 {
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   font-weight: 900;
+   padding: 100px;
+   flex-shrink: 1;
+   width: 30%;
+   text-align: center;
+   letter-spacing: 5px;
+}
+
+.flex-plan .texto-plan {
+   width: 70%;
+   padding: 20px 40px;
+}
+
+/* PORTAFOLIO */
+
+#portafolio .texto-portafolio {
+   color: #333;
+   text-align: center;
+   text-transform: uppercase;
+   width: 60%;
+   font-weight: 300;
+   line-height: 1.6;
+   margin: 0 auto;
+   letter-spacing: 3px;
+}
+
+#portafolio .filtro {
+   margin-top: 30px;
+}
+
+#portafolio .filtro ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#portafolio .filtro a {
+   color: #333;
+   padding: 10px 25px;
+   text-transform: uppercase;
+   color: rgba(222, 63, 24, 1);
+   font-weight: 300;
+   margin-bottom: 50px;
+}
+
+#portafolio .filtro a:hover {
+   background-color: rgba(222, 63, 24, 1);
+   color: #fff;
+   border-radius: 3px;
+}
+
+#portafolio .flex-portafolio {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+#portafolio .proyecto img {
+   border-radius: 5px;
+   display: inline-block;
+   margin-top: 40px;
+   border: 1px solid rgb(231, 231, 231);
+}
+
+#portafolio .proyecto img:hover {
+   cursor: pointer;
+}
+
+/* ACERCA DE MI */
+#acerca {
+   background-color: #113958;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 50px;
+   margin-top: 60px;
+}
+
+#acerca h2 {
+   color: rgba(222, 63, 24, 1);
+}
+
+#acerca .card {
+   width: 60%;
+}
+
+#acerca .card p {
+   color: #fff;
+   padding: 25px;
+   text-align: center;
+   text-transform: uppercase;
+
+   font-weight: 300;
+   line-height: 1.6;
+   margin: 0 auto;
+   letter-spacing: 3px;
+}
+
+#acerca .card span {
+   color: #f19e18;
+   text-transform: uppercase;
+}
+
+#acerca .card .icons {
+   width: 10%;
+   display: flex;
+   justify-content: space-around;
+   padding: 5px 0;
+}
+
+#acerca .card .icons i {
+   padding: 10px;
+   margin-right: 5px;
+}
+
+#acerca .card .icons i:hover {
+   color: #f19e18;
+}
+
+/* FOOTER */
+#footer-pagina {
+   background: rgba(222, 63, 24, 1);
+   height: 12vh;
+   padding-top: 25px;
+   display: flex;
+}
+
+#footer-pagina .contenido {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 25px;
+}
+
+#footer-pagina .contenido .logo {
+   font-size: 1.2rem;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   color: #ffc907;
+   text-align: center;
+}
+
+#footer-pagina .contenido p {
+   flex-grow: 5;
+   font-size: 0.8rem;
+   margin: 0 300px;
+}
